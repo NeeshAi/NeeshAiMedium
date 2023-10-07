@@ -4,7 +4,7 @@ import pandas as pd
 from joblib import Parallel, delayed
 import multiprocessing
 
-train_df =pd.read_csv('/home/dsuser/palash/code/coord/train.csv', sep=',')
+train_df =pd.read_csv('/home/dsuser/code/coord/train.csv', sep=',')
 
 #train_df['MISSING_DATA'] = train_df['MISSING_DATA'].apply(lambda x: x.lower())
 _train_df = train_df[train_df['MISSING_DATA']==False]

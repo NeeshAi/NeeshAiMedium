@@ -3,7 +3,7 @@
 x<-c("sp","rgdal", "raster","rgeos","spatstat","maptools")
 invisible(lapply(x, require , character.only = TRUE))
 options(scipen=100, digits=10)
-setwd("D:\\Personal\\D_Drive\\Palash\\Ather\\start_end_files")
+setwd("start_end_files")
 
 # Packages use :
 # sp : loads S4 spatial objects
@@ -72,8 +72,8 @@ nrow(coord_in)/nrow(ba_start_spdf)
 # Go and select the latest R version which has been installed as the default choice for RStudio:
 # Tools -> Global Options -> General -> R version : Change the path to newly installed version
 
-# I installed the library spatstat by using .tar.gz file : Downloaded it to Ather folder
-install.packages('D:\\Personal\\D_Drive\\Palash\\Ather\\spatstat_1.44-1.tar', repos=NULL, type='source')
+# I installed the library spatstat by using .tar.gz file : Downloaded it
+install.packages('spatstat_1.44-1.tar', repos=NULL, type='source')
 
 # Now, as the folder location has changed, so you have to copy the libraries installed from the previous version’s library folder to this version’s library folder. 
 # This is pretty easy in R, and one has to just copy the folders and all the packages which will be installed in the updated version. I did it using Beyond compare -> Sync Folders.

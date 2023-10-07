@@ -63,5 +63,5 @@ data_clean_full(1, 817878, 'B', 'A' )
 data_clean_full(1, 528013, 'C', 'A' )
 
 
-tar -C /home/dsuser/palash/code/coord/ -czf /home/dsuser/palash/code/coord/aa_coord_df.tar.gz A_A_coord_df.csv
-setwd("D:\\Personal\\D_Drive\\Palash\\Ather\\start_end_files")
+tar -C /home/dsuser/code/coord/ -czf /home/dsuser/code/coord/aa_coord_df.tar.gz A_A_coord_df.csv
+setwd("start_end_files")

@@ -4,7 +4,7 @@ x<-c("sp","apcluster","leaflet")
 invisible(lapply(x, require , character.only = TRUE))
 options(scipen=100, digits=10)
 
-setwd("D:\\Personal\\D_Drive\\Palash\\Ather\\start_end_files")
+setwd("start_end_files")
 
 	# File with lat-lng, unique_cab, freq_val 
 ba_start <- read.csv("B_A_start.csv", header=TRUE, stringsAsFactor=FALSE, sep=',')
